@@ -13,5 +13,5 @@ because i wanted to create a mini project to see my self and improve my self on 
 
 
 ## Demo 
-
+link: https://roromiyu.github.io/rock-paper-scissors-game/
  
