@@ -11,4 +11,7 @@ Thee game lets you play against the computer (but i will update it everytime i l
 
 because i wanted to create a mini project to see my self and improve my self on web dev 
 
+
+## Demo 
+
  
