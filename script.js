@@ -39,10 +39,10 @@ function getComputerChoice(userChoice) {
 // ---------- 4. Update Score Colors ----------
 function updateScoreColors() {
   if (userScore > computerScore) {
-    userScoreSpan.style.color = "#00ff99";   // Green if user is winning
+    userScoreSpan.style.color = "#9900ff3b";   // Green if user is winning
     computerScoreSpan.style.color = "white";
   } else if (computerScore > userScore) {
-    computerScoreSpan.style.color = "#ff4d4d"; // Red if computer is winning
+    computerScoreSpan.style.color = "#ff4d4d51"; // Red if computer is winning
     userScoreSpan.style.color = "white";
   } else {
     userScoreSpan.style.color = "white";   // Equal score

@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #0f0f0f; /* dark mode background */
+  background: #ff8a8a; /* dark mode background */
   color: white;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
 /* ---------- 2. Title ---------- */
 h1 {
   margin-bottom: 25px;
-  color: #ff4d4d; /* light red */
+  color: #974dff83; /* light red */
 }
 
 /* ---------- 3. Difficulty Selector ---------- */
@@ -36,7 +36,7 @@ select {
   padding: 8px 12px;
   border-radius: 8px;
   border: none;
-  background: #ff4d4d;
+  background: #974dff83;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -44,7 +44,7 @@ select {
 }
 
 select:hover {
-  background: #ff1a1a;
+  background: #974dff83;
 }
 
 /* ---------- 4. Score Board ---------- */
@@ -77,7 +77,7 @@ select:hover {
   padding: 15px 25px;
   border-radius: 12px;
   border: none;
-  background: #ff4d4d;
+  background: #974dff83;
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -85,7 +85,7 @@ select:hover {
 
 .choice:hover {
   transform: scale(1.15);
-  background: #ff1a1a;
+  background: #974dff83;
   box-shadow: 0 0 20px #ff4d4d;
 }
 
@@ -142,14 +142,14 @@ select:hover {
   border-radius: 8px;
   border: none;
   background: white;
-  color: #ff4d4d;
+  color: #974dff83;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 #reset-btn:hover {
-  background: #ff4d4d;
+  background: #974dff83;
   color: white;
 }
 
