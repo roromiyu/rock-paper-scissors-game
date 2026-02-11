@@ -1,16 +1,26 @@
 # rock paper scissors game
 
-## about the project 
-this is a mini project i worked on i'm just started to learn web dev and this project is a fun and interactive Rock Paper Scissors game, built using: css ,js, html 
+## About the project
 
-Thee game lets you play against the computer (but i will update it everytime i learn something new) and the game includes the difficulty levels so the eai can  be easy, mid, hard, it also hase tracking scors.
+This is a mini peoject i built while learning web development. Its a browser based Rock Paper Scissors game that has:
 
+- three difficulty levels: choose between easy , medium and hard + Ai is your opponent 
+- ⁠score tracking: keeps track of wins and losses and draws across sessions
+- ⁠clean interface: simple design build with HTML, css, js
 
+## Build with
 
-## why i build this
+HTML 
+CSS
+JS
 
-because i wanted to create a mini project to see my self and improve my self on web dev 
+## Why i built this
 
+As a beginner in web development i wanted to: 
+- apply fundamentals HTML, CSS, js
+- ⁠practice DOM manipulation and ecen handing 
+- ⁠create something interactive and fun
+- ⁠build a foundation of future enhancement
 
 ## Demo 
 link: https://roromiyu.github.io/rock-paper-scissors-game/
