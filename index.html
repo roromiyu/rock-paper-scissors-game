@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors - Premium</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+
+    <!-- 1. Website Title -->
+    <h1>🔥 Rock Paper Scissors</h1>
+
+    <!-- 2. Difficulty Selector -->
+    <div class="difficulty">
+      <label>Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
+    <!-- 3. Score Board -->
+    <div class="score-board">
+      <div class="score-box">
+        <p>You</p>
+        <span id="user-score">0</span>
+      </div>
+      <div class="score-box">
+        <p>Computer</p>
+        <span id="computer-score">0</span>
+      </div>
+    </div>
+
+    <!-- 4. Choices Buttons -->
+    <div class="choices">
+      <button class="choice" data-choice="rock">✊</button>
+      <button class="choice" data-choice="paper">✋</button>
+      <button class="choice" data-choice="scissors">✌️</button>
+    </div>
+
+    <!-- 5. Result Text -->
+    <div id="result" class="result-text">
+      Choose your move
+    </div>
+
+    <!-- 6. Reset Button -->
+    <button id="reset-btn">Reset Game</button>
+
+  </div>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

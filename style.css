@@ -1,0 +1,162 @@
+/* ---------- 1. General Styles ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f0f0f; /* dark mode background */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* ---------- 2. Title ---------- */
+h1 {
+  margin-bottom: 25px;
+  color: #ff4d4d; /* light red */
+}
+
+/* ---------- 3. Difficulty Selector ---------- */
+.difficulty {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+select:hover {
+  background: #ff1a1a;
+}
+
+/* ---------- 4. Score Board ---------- */
+.score-board {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.score-box {
+  background: #1a1a1a;
+  padding: 15px 30px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.score-box span {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* ---------- 5. Choice Buttons ---------- */
+.choices {
+  margin: 20px 0;
+}
+
+.choice {
+  font-size: 2rem;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 12px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.choice:hover {
+  transform: scale(1.15);
+  background: #ff1a1a;
+  box-shadow: 0 0 20px #ff4d4d;
+}
+
+.choice:active {
+  transform: scale(0.9);
+}
+
+/* ---------- 6. Result Text ---------- */
+.result-text {
+  margin: 25px 0;
+  font-size: 1.2rem;
+  min-height: 30px;
+  transition: 0.3s ease;
+}
+
+/* Thinking animation */
+.thinking {
+  animation: pulse 0.8s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* Win Glow */
+.win {
+  animation: winGlow 0.6s ease;
+}
+
+@keyframes winGlow {
+  0% { box-shadow: 0 0 0px #00ff99; }
+  50% { box-shadow: 0 0 25px #00ff99; }
+  100% { box-shadow: 0 0 0px #00ff99; }
+}
+
+/* Lose Shake */
+.lose {
+  animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  50% { transform: translateX(6px); }
+  75% { transform: translateX(-6px); }
+  100% { transform: translateX(0); }
+}
+
+/* ---------- 7. Reset Button ---------- */
+#reset-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: white;
+  color: #ff4d4d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#reset-btn:hover {
+  background: #ff4d4d;
+  color: white;
+}
+
+/* ---------- 8. Responsive ---------- */
+@media (max-width: 500px) {
+  .choice {
+    font-size: 1.6rem;
+    padding: 12px 18px;
+  }
+}
